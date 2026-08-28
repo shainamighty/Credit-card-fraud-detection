@@ -88,8 +88,12 @@ on the same signal the EDA surfaced.
 - `eda.py` — data loading, class balance check, amount/correlation analysis
 - `train.py` — preprocessing, model training, threshold exploration, feature importance
 - `model_comparison_results.csv` — output metrics table
-- `data/` — place `creditcard.csv` here (not committed — too large for git)
+- `data/creditcard.csv.gz` — gzip-compressed dataset. Run `gunzip data/creditcard.csv.gz` (or `gunzip -k data/creditcard.csv.gz` to keep the .gz copy) before running `train.py` or `eda.py`, since both expect `data/creditcard.csv`.
 
 ## Tech stack
 
 Python, Pandas, NumPy, Scikit-learn, XGBoost
+
+## Author
+
+**Shaina Srujitha**
