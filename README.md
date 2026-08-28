@@ -3,7 +3,8 @@
 ## Overview
 
 Binary classification of credit card fraud on the classic Kaggle Credit Card
-Fraud dataset — 284,807 transactions, 492 frauds (0.17% — extreme class
+Fraud dataset ([mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)) —
+284,807 transactions, 492 frauds (0.17% — extreme class
 imbalance). Features `V1-V28` are PCA-anonymized for confidentiality;
 `Time` and `Amount` are the only raw, interpretable columns.
 
